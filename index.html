@@ -1,25 +1,38 @@
 <!DOCTYPE>
 <html>
     <head>
-        <title>CSS</title>
-        <style>
-            .box{
-                background-color: blueviolet;
-                width; 300px;
-                height:200px;
-                margin: auto;
-                font: size 40px;
-                text-align:center;
-            }
-            .box:hover{
-                background-color: cyan;
-            }
-            h1, h2{
-                color: blue;
+         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Redaction+70:ital,wght@0,400;0,700;1,400&display=swap');
+            h1 {
+                font-size:50px ;
+                font-family: "Redaction 70", sans-serif;
+                text-shadow: 4px 4px blue;
                 text-align: center;
-            }
+             }
+             h2 {
+                color:brown;
+                background-color:bisque;
+                font-family: "Redaction 70", sans-serif;
+                border:5px dashed blue;
+             }
+             img {
+                border:10px ridge beige;
+                width:200px;
+             }
+             table {
+                background-color: yellow;
+                border: 10px double red;
+                font-size: 25px;
+                padding: 20px;
+             }
+             a:hover {
+                color:lime;
+                background-color: aqua;
+                font-size: 30px;
+             } 
         </style>
-    <body>
+        <title>Coin</title>
+    <body style="background-color: blueviolet;">
         <h1>FIRST HTML</h1>
         <br>
         <p>THIS IS A HEADING</p>
@@ -29,6 +42,12 @@
         <br>
         <hr>
         <a href="https://www.google.com/">L1Nk</a>
+        <table border="5" bgcolor="yellow"></table>
+        <tr>
+            <th>six</th>
+            <th>5</th>
+        </tr>
+    </table>
     </body>
     </head>
 </html>
